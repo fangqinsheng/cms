@@ -1,0 +1,48 @@
+{template "content","header"}
+		
+<!-- news-details -->		
+	<div class="news-details">
+		<div class="container">
+			<h1>新闻详情</h1><hr>
+			<dl>
+				<dt>{$title}</dt>
+				<dd>发表时间：{$inputtime}</dd>
+			</dl>
+			<div class="paragraph">
+				{$content}
+				</div>
+
+			<div class="share-icon">
+				<ul class="clearfloat">
+					<li style="font-size: 16px;line-height: 46px;">分享至:</li>
+					<li>
+						<svg class="icon" aria-hidden="true">
+	  						<use xlink:href="#icon-QQ"></use>
+						</svg>
+					</li>
+					<li>
+						<svg class="icon" aria-hidden="true">
+	  						<use xlink:href="#icon-douban"></use>
+						</svg>
+					</li>
+					<li>
+						<svg class="icon" aria-hidden="true">
+	  						<use xlink:href="#icon-weixin"></use>
+						</svg>
+					</li>
+					<li>
+						<svg class="icon" aria-hidden="true">
+	  						<use xlink:href="#icon-pengyouquan"></use>
+						</svg>
+					</li>
+					<li>
+						<svg class="icon" aria-hidden="true">
+	  						<use xlink:href="#icon-weibo"></use>
+						</svg>
+					</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		
+{template "content","footer"}

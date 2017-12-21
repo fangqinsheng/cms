@@ -1,0 +1,40 @@
+/*news-details*/
+.news-details {
+  background: #FFFFFF;
+  padding: 2em 0 6em 0;
+}
+.news-details .container {
+  width: 1000px;
+}
+.news-details .container h1 {
+  font-size: 1em;
+  color: #005BAC;
+  padding: 0 0.8em;
+  border-left: 2px solid #005BAC;
+  margin: 0.8em 0.6em;
+}
+.news-details .container dl dt {
+  font-size: 2em;
+  color: #005BAC;
+  margin-left: 0.8em;
+  line-height: 2;
+  margin-top: 1.2em;
+}
+.news-details .container dl dd {
+  font-size: 0.6em;
+  color: #A1A1A1;
+  margin-left: 2em;
+  padding: 0.6em 0;
+}
+.news-details .container .paragraph {
+  padding: 3em 0;
+  margin: 0 1.6em;
+  border-bottom: dashed 1px #A1A1A1;
+  border-top: 1px solid #333333;
+  text-align: justify;
+}
+.news-details .container .paragraph p {
+  font-size: 1em;
+  text-indent: 2em;
+  line-height: 1.8;
+}

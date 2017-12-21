@@ -1,0 +1,144 @@
+/*变量*/
+/*常用*/
+.bg-white {
+  background: #ffffff;
+}
+.bg-grey {
+  background: #f4f4f4;
+}
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+.clearfloat:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.border {
+  border: 1px solid #25aae1;
+}
+.index-color {
+  color: #005abc;
+}
+.index-bg {
+  background-color: #005abc;
+}
+.blue {
+  background: rgba(37, 170, 225, 0.8);
+}
+input[type="text"] {
+  border: 1px solid #25aae1;
+}
+input[type="submit"] {
+  background: #25aae1;
+  border: 1px solid #25aae1;
+  color: #ffffff;
+}
+.active {
+  background: #25aae1;
+}
+.end {
+  margin: 0;
+}
+.center {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+body {
+  background: none;
+  background-size: cover;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+/*悬浮窗口开始*/
+.float-box {
+  position: fixed;
+  z-index: 9999999;
+  top: 58%;
+  right: -127px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.float-box .float-menu ul li {
+  width: 180px;
+  height: 53px;
+  transition: all .5s ease;
+  font: 16px/53px 'Microsoft YaHei';
+  color: #fff;
+  text-indent: 54px;
+  margin-bottom: 3px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.float-box .float-menu ul .float-top {
+  background: #4e8fc8 url(../../images/img/index/fixCont1.png) no-repeat 0 0;
+}
+.float-box .float-menu ul .float-phone {
+  background: #4e8fc8 url(../../images/img/index/fixCont1.png) no-repeat 0 -57px;
+}
+.float-box .float-menu ul .float-QQ {
+  text-indent: 0;
+  background: #4e8fc8 url(../../images/img/index/fixCont1.png) no-repeat 0 -113px;
+}
+.float-box .float-menu ul .float-QQ a {
+  display: block;
+  text-indent: 54px;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.float-box .float-menu ul .float-code {
+  background: #4e8fc8 url(../../images/img/index/fixCont1.png) no-repeat 0 -169px;
+}
+.float-box .float-menu ul .float-code .hd_qr {
+  padding: 0 0 20px 20px;
+}
+/*悬浮窗口结束*/
+.index-bg {
+  background: url(../../images/img/index/index-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  z-index: -1;
+}
+.product h1 {
+  font-size: 3rem;
+  color: #005ABC;
+  line-height: 1;
+  text-align: center;
+  margin: 0;
+}
+.product h1 span {
+  font-size: 2.8rem;
+  color: #c0bdba;
+}
+.left-tittle {
+  padding-top: 1rem;
+}
+.left-tittle h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.left-tittle h1 span {
+  font-size: 2.8rem;
+  color: #c0bdba;
+}
+.left-tittle hr {
+  border: 1px solid #fff;
+  width: 9.6rem;
+  margin-top: 0.3em;
+}
