@@ -145,7 +145,7 @@
 				<div class="other-products">
 					<h4>本店其他产品<a href="">换一批</a></h4>
 					<ul>
-					{pc:content action="position" posid="18" num="4" order="listorder" return="pdata"}
+					{pc:content action="position" posid="18" num="5" order="listorder" return="pdata"}
 					{loop $pdata $p}
 						{php $cid = $p[catid]} 
     					{pc:content action="lists" catid="$cid"  moreinfo="1" num="1" return="cdata"}
